@@ -72,3 +72,25 @@ let c: {
   age: number;
   job: boolean;
 };
+
+// Dynamic Type
+
+let as: any;
+
+as = 5;
+as = 'Teen girl';
+
+let aj: any[] = [];
+aj.push('bangladesh');
+
+// object
+
+let ae: {
+  name: any;
+  age: any;
+  job: any;
+};
+
+ae = {
+  name: 'Bangladesh',
+};

@@ -42,3 +42,14 @@ let s;
 let aa = [];
 aa.push('Emmah', 22, false);
 let c;
+// Dynamic Type
+let as;
+as = 5;
+as = 'Teen girl';
+let aj = [];
+aj.push('bangladesh');
+// object
+let ae;
+ae = {
+    name: 'Bangladesh',
+};
