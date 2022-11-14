@@ -94,3 +94,12 @@ let ae: {
 ae = {
   name: 'Bangladesh',
 };
+
+// How to use Functions
+
+const myFunc = (a: string, b?: string) => {
+  console.log(b);
+  console.log(a);
+};
+myFunc('AS', 'coding');
+let ownFunc: Function;

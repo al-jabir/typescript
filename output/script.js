@@ -53,3 +53,10 @@ let ae;
 ae = {
     name: 'Bangladesh',
 };
+// How to use Functions
+const myFunc = (a, b) => {
+    console.log(b);
+    console.log(a);
+};
+myFunc('AS', 'coding');
+let ownFunc;
