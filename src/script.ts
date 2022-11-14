@@ -115,3 +115,25 @@ const userDetails = (id: stringOrNum, user: userType) => {
 const sayHello = (user: userType) => {
   console.log(`Hello ${user.age > 50 ? 'sir' : 'mr.'}${user.name}`);
 };
+
+// Classes
+
+class Player {
+  name: string;
+  age: number;
+  coutry: string;
+  constructor(n: string, a: number, c: string) {
+    this.name = n;
+    this.age = a;
+    this.coutry = c;
+  }
+  play() {
+    console.log(`${this.name} from ${this.coutry}`);
+  }
+}
+
+const Ashrafi = new Player('Asharafi', 35, 'Bangladesh');
+
+const players: Player[] = [];
+
+players.push(Ashrafi);

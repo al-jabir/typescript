@@ -66,3 +66,17 @@ const userDetails = (id, user) => {
 const sayHello = (user) => {
     console.log(`Hello ${user.age > 50 ? 'sir' : 'mr.'}${user.name}`);
 };
+// Classes
+class Player {
+    constructor(n, a, c) {
+        this.name = n;
+        this.age = a;
+        this.coutry = c;
+    }
+    play() {
+        console.log(`${this.name} from ${this.coutry}`);
+    }
+}
+const Ashrafi = new Player('Asharafi', 35, 'Bangladesh');
+const players = [];
+players.push(Ashrafi);
