@@ -32,3 +32,13 @@ let person = {
 person.job = 'Senior Software Engineer';
 person.isCountry = 'Munich,German'; // can't not working
 console.log(person.job);
+// Explicit & Union Types
+let a;
+let b;
+(a = 'Jabir'), (b = 23);
+// normal variable
+let s;
+// Array
+let aa = [];
+aa.push('Emmah', 22, false);
+let c;
